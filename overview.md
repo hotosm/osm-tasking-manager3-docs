@@ -1,7 +1,7 @@
 
 
 
-The HOT OSM Tasking Manager is a tool that coordinates many people mapping a specific geographic region in OpenStreetMap. OpenStreetMap is a collabarative, crowd sourced, free map of the world. Anyone can contribute to OpenStreetMap to map any part of their world that interests them. The Tasking Manager is just a way to coordinate large groups of people contributing to OpenStreetMap but most contributions to OpenStreetMap are done by people not using the Tasking Manager.
+The HOT OSM Tasking Manager is a tool that coordinates many people mapping a specific geographic region in OpenStreetMap. OpenStreetMap is a collabarative, crowd sourced, free map of the world. Anyone can contribute to OpenStreetMap to map any part of the world that interests them. The Tasking Manager is just a way to coordinate large groups of people contributing to OpenStreetMap but most contributions to OpenStreetMap are done by people not using the Tasking Manager.
 
 The Tasking Manager is a totally seperate tool from the main OpenStreetMap project. When you are contributing to OpenStreetMap using the Tasking Manager, you are actually using multiple software tools:
 
