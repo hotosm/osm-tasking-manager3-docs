@@ -11,7 +11,7 @@
 
 ---
 
-### 3. Find a mapping Project to work on
+### 3. Click on "Contribute" and find a mapping Project to work on
 ![](/assets/2017-04-09_21h10_49.png)
 
 ---

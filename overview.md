@@ -14,7 +14,7 @@ The Tasking Manager is a totally seperate tool from the main OpenStreetMap proje
 
 ![](/assets/2017-04-09_16h30_25.png)
 
-The **OpenStreetMap** database is where all of your mapping is stored. This is a live database and everything change, add or delete from it is reflected in the global database in real time. Your main way of interacting with that OpenStreetMap database is through one of the OpenStreetMap editors listed below. Every OpenStreetMap editor will have a way to download existing geographic data (buildings, roads, waterways, etc) and display that data (sometimes there is no data for an area you are mapping), provide you with tools to create geographic data (usually by tracing roads or buildings on satellite imagery), and save your new data back to the OpenStreetMap database.
+The **OpenStreetMap** database is where all of your mapping is stored. This is a live database and everything you change, add or delete from it is reflected in the global database in real time. Your main way of interacting with the OpenStreetMap database is through one of the OpenStreetMap editors listed below. Every OpenStreetMap editor will have a way to download existing geographic data (buildings, roads, waterways, etc) and display that data (sometimes there is no data for an area you are mapping), provide you with tools to create geographic data (usually by tracing roads or buildings on satellite imagery), and save your new data back to the OpenStreetMap database.
 
 ---
 
