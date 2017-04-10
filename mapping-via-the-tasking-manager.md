@@ -22,10 +22,16 @@ Once you are logged into OpenStreetMap you will be returned to the Tasking Manag
 
 The Tasking Manager Contribute screen is divided into three main areas:
 
-- Search Filters
-- Search Results
-- Map View of search results
+- Project Filters
+- Project List
+- Map View of Project List
 
 ### Search Filters
 
-By default all the projects available for mapping at your experiance level are displayed. You can use the search filters section of the screen to further narrow down the projects that you would like to work on
+By default all the projects available for mapping at your experiance level are displayed. You can use the Project List filters section of the screen to further narrow down the projects that you would like to work on.
+
+- Organization - This allows you to just display projects that have been requested by individual organizations.
+- Mapping Difficulty - Some projects are more difficult to map than others. This option allows you to find projects that are most appropriate for your experience level. You are encouraged to work on projects that best match your experience level, especially if you are a more experienced mapper.
+- Type of Mapping - This allows you to find projects that include a certain type of feature to map. Many projects are focused on only one type of mapping, but projects may include multiple types of features to map.
+- Full text search - This allows you to search for projects that may contain a certain word or phrase in the project description.
+- Tags - Projects can have other tags that indicate some information not covered by any of the above, you can find projects by those tags by entering them into this field.
