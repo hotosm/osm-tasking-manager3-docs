@@ -28,4 +28,4 @@ The Tasking Manager Contribute screen is divided into three main areas:
 
 ### Search Filters
 
-By default all the projects available for mapping at your experiance level are displayed
+By default all the projects available for mapping at your experiance level are displayed. You can use the search filters section of the screen to further narrow down the projects that you would like to work on
