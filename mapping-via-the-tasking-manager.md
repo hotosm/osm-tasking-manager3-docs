@@ -47,3 +47,6 @@ The project list has two views, a Grid view (shown above) that shows some detail
 At the bottom of the screen is a map view. The points on the map are color coded, with red being urgent, yellow being high or medium priority and grey being low priority. Hovering over any of the points on the map will show information about that project. Clicking on any of the points on the map will take you to that project.
 
 ![](/assets/2017-04-10_15h56_11.png)
+
+## Mapping via the Tasking Manager
+![](/assets/2017-04-10_16h24_55.png)
