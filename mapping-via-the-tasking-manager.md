@@ -16,7 +16,7 @@ Clicking on that button will take you to the OpenStreetMap website. There you wi
 
 Once you are logged into OpenStreetMap you will be returned to the Tasking Manager, clicking on Contribute or Get Started will take you to a list of projects you can contribute to.
 
-# Tasking Manager Contribute Screen
+# Finding a Project - Tasking Manager Contribute Screen
 
 ![](/assets/2017-04-10_12h00_43.png)
 
