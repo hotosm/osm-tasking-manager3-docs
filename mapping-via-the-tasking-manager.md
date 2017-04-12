@@ -22,6 +22,19 @@ Clicking on that button will take you to the OpenStreetMap website. There you wi
 
 Once you are logged into OpenStreetMap you will be returned to the Tasking Manager, clicking on Contribute or Get Started will take you to a list of projects you can contribute to.
 
+## Options & links
+
+The Task Manager initially displays in English - to change to another language click on **English** in upper right area of the window.
+
+Once you have logged in, you may click on your username at the top. Here you can:
+
+- Access a list of projects for which you have completed squares,
+- Go to your **Messages** screen within the Tasking Manager (this is not the same as the OpenStreetMap messaging system)
+- Logout
+- See a list of all users who have contributed completed squares within the Tasking Manager. You may access links to see more information about the user you select, such as which tasks they have completed squares for and their OSM edit history.  
+
+![Tasking Manager Username_list][]
+
 # Finding a Project - Tasking Manager Contribute Screen
 
 ![](/assets/2017-04-10_12h00_43.png)
@@ -55,66 +68,33 @@ At the bottom of the screen is a map view. The points on the map are color coded
 ![](/assets/2017-04-10_15h56_11.png)
 
 ## Mapping via the Tasking Manager
+
+Once you have located a Project to work on, clicking on the Project title will take you to the detailed entry for that Project. This detailed view contains:
+
+- A description of the Projects importance and how the data will be used
+- Detailed instructions for what to map
+- Selection screens for mapping (and validating mapping)
+- Detailed map of the individual mapping Task areas, with information about their status.
+
 ![](/assets/2017-04-10_16h24_55.png)
 
 
 
-## Options & links
-
-The Task Manager initially displays in English - to change to another language click on **English** in upper right area of the window.  
-
-Once you have logged in, you may click on your username at the top. Here you can:  
-
-- Access a list of projects for which you have completed squares,  
-- Go to your **Messages** screen within the Tasking Manager (this is not the same as the OpenStreetMap messaging system)  
-- Logout  
-- See a list of all users who have contributed completed squares within the Tasking Manager. You may access links to see more information about the user you select, such as which tasks they have completed squares for and their OSM edit history.  
-
-![Tasking Manager Username_list][]  
-
-
-## Getting started with the Tasking Manager
-
-You may view projects as a visitor, but to actively participate you must be logged into the Tasking Manager - use your OpenStreetMap account username & password. Open your Internet browser and go to <http://tasks.hotosm.org>. You will see a page like this:  
-
-![Tasking Manager Login][]
-
-- Click “login to OpenStreetMap”  
-- You are agreeing to allow this application some access to your OpenStreetMap account.  Click “Save Changes.”  
-
-![Authorizing access to OSM account by the Tasking Manager][]
-
-
-## Locating a project
-
-The current list of projects may be sorted according to:  
-
-- High priority  
-- Creation date, or  
-- Last update  
-
-You can further refine your list by clicking in the **Your Projects** box, to see just the projects in which you have participated, whether you have completed a square or not. Validators will also find projects they have contributed validated squares in, by using this checkbox. You may use a free text search to locate projects that contain particular text strings, such as **Ebola** (search is not case sensitive).  
-
-Projects are frequently referred to by their Project number, e.g., [**#711 - Ebola Outbreak, Kayes, Mali - Pre-emptive building mapping**](http://tasks.hotosm.org/project/711), and in this instance you could search on #711 to find this project.  
-
-Click on a blue project title to see more information about that project.  
-
-![Job description][]
-
-
-## Description
+### Description Tab
 
 Everything you need to know about the project is here! On the left is a description of the mapping project and what is required. On the right side is a grid showing the area to be mapped;  
 
-- Mauve line normally visible in the perimeter squares of a project indicates the border of the project. This border normally follows the available imagery, so may appear an unusual shape. Although mapping may be completed outside this border, it is not a requirement and will not be considered by validators.  
-- Pink areas of the map indicate higher priority areas,  
-- Yellow grid squares have been completed,  
-- A yellow border indicates the square is being worked on now,  
-- Green squares have been completed and “validated”, and  
-- The remaining squares still need to be completed, or have previously been invalidated (invalidated squares are a darker colour).  
+- The blue line normally visible in the perimeter squares of a project indicates the border of the project. This border normally follows the available imagery, an administrative boundary, etc, so may appear an unusual shape. Although mapping may be completed outside this border, it is not a requirement and will not be considered by validators.  
+- Pink areas of the map indicate higher priority areas
+- Yellow/Gold grid squares have had the first pass of mapping completed  
+- A yellow border indicates the Task is slected by you
+- Blue Tasks are currently being worked on by another mapper 
+- Green Tasks have had the 2nd pass of mapping completed and the mapping has been "validated"
+- Dark gray Tasks have been looked at by a mapper and marked as not having acceptable imagery for mapping 
+- The remaining uncolored Task are available for mapping
 
 
-### Instructions tab
+### Instructions Tab
 This shows what is required in the mapping task. Tasks range in difficulty, suitable for beginners, intermediate and advanced mappers - and the instructions will explain this. Make sure you read and understand this section. There are many styles of mapping project, for many different purposes. Some common project activities include:  
 
 - Road networks: Used by people on the ground to load data into hand held navigation tools, and to work out how to access remote areas  
