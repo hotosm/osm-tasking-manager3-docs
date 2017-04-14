@@ -19,3 +19,15 @@ A list of mappers who have marked a Task as done is presented. Hovering over any
 Clicking on the "Start Validating" button will lock all the Tasks completed by that mapper and allow the validator to open them in their editor of choice.
 
 ![](/assets/2017-04-14_20h49_00.png)
+
+Once in the editor of their choice, the validator will have to manually download the OSM data for Task areas selected. This is to prevent downloading all of the OSM data between the selected Tasks.
+
+### Finalizing Validation
+
+Once the validator has finished the validation process either for one Task or multiple Tasks, they should return to the Tasking Manager and select one of the three choices that reflect the mapping of the Task:
+
+- Stop Validating - If you could not complete the validation process but must stop validating.
+- Mark (all) as Valid - If the mapping is complete and accurate
+- Mark (all) as Invalid - If the mapping is not complete or inaccurate.
+
+For the last two choices the Validator can and should leave a friendly, encouraging comment addressed to the mapper(s) involved and provide thanks for their contributions and feedback on their mapping.
