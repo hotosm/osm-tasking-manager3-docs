@@ -87,19 +87,12 @@ This establishes the project in the task manager and opens a screen where you ca
 Once the Project is created, you will need to edit all its associated settings:
 
 - Description - Used for display in lists and motivational information for mappers
-
 - Instructions - Detailed instructions for what and how to map the needed objects/entities/features
-
 - Metadata - Additional information used for categorizing the Project. Often used in filtering the full list of projects.
-
 - Imagery - Place to provide a TMS URL and License required.
-
 - Priority Areas - Allows you to specify parts of the Project that should be mapped first.
-
 - Permissions - Allows you restrict access to the project for mapping and validation.
-
 - Settings - Project due date and JOSM Presets.
-
 - Actions - Send messages to contributors, validate and invalidate the entire project with one click.
 
 
