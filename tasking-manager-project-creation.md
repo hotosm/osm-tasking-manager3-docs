@@ -55,7 +55,11 @@ The area of interest defined by the file upload or hand drawn will appear in the
 2. Arbitrary Geometries - If you uploaded a file to define your project area, that file can also contain the shapes for the individual task. There has to be a special need in the mapping to create custom task shapes. An import of roads project might need custom task shapes or the output from an AOI reduction process for example.
 
 ### Using the Square Grid for task squares
+
 To create uniform square tiles, select the Square Grid option.
+
+![](/assets/2017-04-14_21h26_37.png)
+
 The area of interest is automatically split into grid cells and each cell becomes a task. Determine the optimal tile size using the "Larger" and "Smaller" buttons to adjust the size of the Task squares. As such, a smaller tile size will result in more tasks.  The optimal tile size will therefore depend both on the size of the area (create smaller tiles for a large project) and the number of features that will likely need to be mapped within each tile. Generally speaking, as the size of the area of interest and/or the number of likely features increases, the tile size chosen for the project should decrease.
 
 Please note that there are multiple map layers available to use while determining Task square size. The button in the lower right corner of the map will provide your list of options for map layer. Choosing one of the imagery layers is probably the best option as it lets you see the actual imagery to be mapped.
