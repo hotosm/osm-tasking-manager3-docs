@@ -95,7 +95,7 @@ Everything you need to know about the project is here! On the left is a descript
 
 
 ### Instructions Tab
-This shows what is required in the mapping task. Tasks range in difficulty, suitable for beginners, intermediate and advanced mappers - and the instructions will explain this. Make sure you read and understand this section. There are many styles of mapping project, for many different purposes. Some common project activities include:  
+This shows what is required in the mapping task. Projects range in difficulty, suitable for beginners, intermediate and advanced mappers - and the instructions will explain this. Make sure you read and understand this section. There are many styles of mapping project, for many different purposes. Some common project activities include:  
 
 - Road networks: Used by people on the ground to load data into hand held navigation tools, and to work out how to access remote areas  
 - Mapping villages: Often used to identify places where people live and may be impacted  
@@ -110,35 +110,27 @@ Sometimes, task specific imagery may be available - you may need to agree to a l
 
 When checking a Task marked as complete, validators will expect that the requirements from the instructions tab have all been completed. You may find completing an entire tile is quite difficult - guidance below is available around unlocking tiles; as well as providing useful feedback for the next mapper.  
 
-
-### Activity tab  
-
-This shows activity that has taken place within the task in chronological order.  
-
-
 ### Stats tab  
 
-This contains a graph of progress & other information.  
+This tab contains statistics about the project. It is divided into two sections, a detailed list of the activity (formerly its own tab in the Tasking Manager 2.0) and summary section.
 
-The Stats tab also contains a list of mappers who have completed at least one square within the project - to see which squares they have completed, you can *hover your mouse cursor* over a username, and the squares they have completed will become the only ones visible (**use this to locate the squares you have previously completed**).  
+The summary contains a list of mappers who have completed at least one square within the project - to see which squares they have completed, you can *hover your mouse cursor* over a username, and the squares they have completed will become the only ones visible (**use this to locate the squares you have previously completed**).  
 
 Once you have located the square by hovering your mouse over the user name, you may click on the square to see the comments that have been left by mappers and validators for the square, which is a useful way of obtaining feedback from validators.  
 
 
-### Contribute tab  
+### Map Tab  
 
 Click when you are ready to start mapping. You may choose your square to work on by selecting it from the map, or by clicking on the "Take a Task at random" option.  
 
-![Picking a task][]  
+![](/assets/2017-04-14_15h14_29.png)
 
 
-## Selecting a square to map  
+### Selecting a square to map  
 
 ![Assigned task square][]  
 
 Having selected your square you will be able to see if there is any history for this square, such as a mapper starting to map, but realizing they do not have time to complete the square.  
-
-If you accidentally select a square, you can release it again by clicking on the blue close control - **x** - shown in the screenshot above.  
 
 Clicking on the **Start Mapping** button locks the square so that no other mapper can select it until it is released again, and starts a 2 hour (120 minute) countdown timer, at the end of which time the square is automatically released. It is good practice to check on your countdown timer on a regular basis - it is easy to become engrossed in your mapping and not realise your square has been released, and has now been selected by another mapper who has started mapping it too. This can lead to conflicts and problems.  
 
@@ -146,9 +138,6 @@ Clicking on the **Start Mapping** button locks the square so that no other mappe
 ### Editing choices
 
 Different options for editing are presented to you as soon as you lock a square.
-
-![Editing options][]  
-
 
 #### Edit with JOSM  
 
@@ -178,7 +167,7 @@ Editor will load in a new window or tab. Potlatch will not automatically display
 8. Potlatch should now display the boundary as a square (probably cyan). Note that Potlatch will still load data outside the boundary.  
 
 
-#### Walking Papers / Field Papers  
+#### Field Papers  
 
 For use only when you are involved in a project where a local mapper has carried out a ground survey and marked a printed map with information such as road names. This map can be rescanned & used as a background image for a remote or local mapper to read the information & update the OpenStreeetMap data [Field papers section of LearnOSM](/en/mobile-mapping/field-papers/).  
 
@@ -190,9 +179,9 @@ Having selected your square and inspected it with the imagery in place, you may 
 > Be aware that other useful comments about the work previously completed will no longer be available.
 
 
-### Unlocking a square before it is complete
+### Unlocking a Task before it is complete
 
-If you start working on a square, but cannot complete it for some reason, it is best practice to leave a comment against the square. Simply detail what remains and choose **unlock**. Make sure your comments are relevant and aimed to help out the next mapper.  
+If you start working on a square, but cannot complete it for some reason, it is best practice to leave a comment against the square. Simply detail what remains and choose **Stop Mapping**. Make sure your comments are relevant and aimed to help out the next mapper.  
 
 For example:  
 
@@ -200,16 +189,20 @@ For example:
     in the square to be traced though
 
 
-### Finishing a square
+### Finishing a Task
 
 It is very difficult to be completely certain that you have completed a square - however it is acceptable to mark the square as complete if you are fairly sure - the contents will be checked by another mapper when validating, and any small additions can be made then.  
 
-For the process to work most effectively, mappers need to mark squares as complete rather than leaving them for several other 'not sure' mappers to spend time also checking them.  
+For the process to work most effectively, mappers need to mark squares as "Mapped" rather than leaving them for several other 'not sure' mappers to spend time also checking them.  
 
 When you have finished editing and think that the square is complete, save any remaining edits with your editing programme, then return to the Tasking Manager.  
 
 + Add comments to the box detailing what you achieved and more importantly, what you are not certain of. For example; "Complete as far as I can see, but there is cloud covering the top right corner of the square & I cannot see to trace this area".  
-+ Click on the "Mark Task as Done" button, and your work is ready for review.  
++ Click on the "Mark as Mapped" button, and your work is ready for review.  
+
+### Marking a Task as Bad Imagery
+
+You will sometimes select a Task that can not be mapped because the imagery is low resolution or has cloud cover. Just close that Taks in your editor and use the "Mark as Bad Imagery" button to record that the Task can not be mapped due to poor imagery.
 
 
 ### Sending a message from the comment box
@@ -243,14 +236,10 @@ If you need to send a message, such as an email or an IRC message, and you are q
 
 ### Getting live help 
 
-![IRC_help][] 
-
-From the tasking manager;  
+From the main page of the Tasking Manager:  
 1. Click on **OSM HOT IRC Channel #hot**  
 2. Enter a username (your OSM username?), or use the preset characters  
 3. At the bottom of the dropdown list select **hot**  
-
-![IRC using][]  
 
 - To the right of the screen is a list of users that are online now.  
 - Type your message in the box at the bottom left of the screen (this is sometimes temporarily obscured by other text, but this will disappear as you select the box.  
@@ -274,14 +263,3 @@ Some general advice to heed when working in this tool:
 * You must not validate your own work - a second pair of eyes will always lead to better quality mapping.  
 * Don't worry if other mappers are terse when validating your work - like you, they just want to ensure all of the data is mapped accurately. Feedback is invariably about the remaining work, not criticism of your efforts to date.  
 
-[Tasking Manager Login]: /images/coordination/tasking_manager_image01.png
-[Tasking Manager Username_list]: /images/coordination/tasking_manager_image02.png
-[Authorizing access to OSM account by the Tasking Manager]: /images/coordination/tasking_manager_image03.png
-[Job description]: /images/coordination/tasking_manager_image04.png
-[Picking a task]: /images/coordination/tasking_manager_image05.png
-[Assigned task square]: /images/coordination/tasking_manager_image06.png
-[Editing options]: /images/coordination/tasking_manager_image07.png
-[IRC_help]: /images/coordination/tasking_manager_image08.png
-[IRC using]: /images/coordination/tasking_manager_image09.png
-[Tasking Manager About]: /images/coordination/tasking_manager_image011.png
-[Tasking Manager Languages]: /images/coordination/tasking_manager_image012.png
