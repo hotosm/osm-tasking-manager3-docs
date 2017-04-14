@@ -7,7 +7,7 @@ The OpenStreetMap Tasking Manager is essential to conducting a mapathon, managin
 The HOT or OSM Tasking Manager is frequently referred to as **TM3,** as a shorthand for Tasking Manager, version 3. 
 
 ## Logging in & Access Levels
-The first thing to understand is access level. All access to TM2 is authorized through <https://www.openstreetmap.org>. To access TM2 you will need an OpenStreetMap (OSM) account. Once you have this account visit <http://tasks.hotosm.org/> and click **Login to OpenStreetMap**, which will refer you back to the OSM page where you can authorize the Tasking Manager to have limited access to your OSM account. 
+The first thing to understand is access level. All access to TM3 is authorized through <https://www.openstreetmap.org>. To access TM2 you will need an OpenStreetMap (OSM) account. Once you have this account visit <http://tasks.hotosm.org/> and click **Login to OpenStreetMap**, which will refer you back to the OSM page where you can authorize the Tasking Manager to have limited access to your OSM account. 
 
 ### Access Levels within the OSM Tasking Manager
 The OSM Tasking Manager has three user access levels:
