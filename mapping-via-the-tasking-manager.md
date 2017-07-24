@@ -45,7 +45,9 @@ The Tasking Manager Contribute screen is divided into three main areas:
 - Project List
 - Map View of Project List
 
-### List Filters
+### Advanced Search Options
+
+![](/assets/2017-07-24_13h11_14.png)
 
 By default all the projects available for mapping are displayed. You can use the Advanced Search filters section of the screen to further narrow down the projects that you would like to work on.
 
@@ -60,12 +62,12 @@ By default all the projects available for mapping are displayed. You can use the
 
 The project list has two views, a Grid view (shown above) that shows some detailed information about the projects and a list view that shows more projects and is sortable by column headings.
 
-![](/assets/2017-04-10_15h42_18.png)
+![](/assets/2017-07-24_13h19_45.png)
 
 ### Map View
-At the bottom of the screen is a map view. The points on the map are color coded, with red being urgent, yellow being high or medium priority and grey being low priority. Hovering over any of the points on the map will show information about that project. Clicking on any of the points on the map will take you to that project.
+The initial view will show you the number of projects in a region. Clicking or zooming in will display the individual projects. Once zoomed in, the points on the map are color coded, with red being urgent, yellow being high or medium priority and grey being low priority. Hovering over any of the points on the map will show information about that project. Clicking on any of the points on the map will take you to that project.
 
-![](/assets/2017-04-10_15h56_11.png)
+![](/assets/2017-07-24_13h20_40.png)
 
 ## Mapping via the Tasking Manager
 
