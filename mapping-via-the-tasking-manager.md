@@ -75,10 +75,11 @@ Once you have located a Project to work on, clicking on the Project title will t
 
 - A description of the Projects importance and how the data will be used
 - Detailed instructions for what to map
-- Selection screens for mapping (and validating mapping)
-- Detailed map of the individual mapping Task areas, with information about their status.
+- Selection screens for mapping and validating
+- Detailed map of the individual mapping Task areas, with information about their status
+- A Questions and Comments tab for questions or comments about the project
 
-![](/assets/2017-04-10_16h24_55.png)
+![](/assets/2017-07-24_13h24_34.png)
 
 
 
