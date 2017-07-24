@@ -37,24 +37,24 @@ Once you have logged in, you may click on your username at the top. Here you can
 
 # Finding a Project - Tasking Manager Contribute Screen
 
-![](/assets/2017-04-10_12h00_43.png)
+![](/assets/2017-07-24_13h06_32.png)
 
 The Tasking Manager Contribute screen is divided into three main areas:
 
-- Project Filters
+- Advanced Search Options
 - Project List
 - Map View of Project List
 
 ### List Filters
 
-By default all the projects available for mapping at your experiance level are displayed. You can use the Project List filters section of the screen to further narrow down the projects that you would like to work on.
+By default all the projects available for mapping are displayed. You can use the Advanced Search filters section of the screen to further narrow down the projects that you would like to work on.
 
 - Project Number - If you know the number of the project you want to work on, you can enter it here and be taken directly to it.
 - Organization - This allows you to just display projects that have been requested by individual organizations.
 - Mapping Difficulty - Some projects are more difficult to map than others. This option allows you to find projects that are most appropriate for your experience level. You are encouraged to work on projects that best match your experience level, especially if you are a more experienced mapper.
 - Type of Mapping - This allows you to find projects that include a certain type of feature to map. Many projects are focused on only one type of mapping, but projects may include multiple types of features to map.
 - Full text search - This allows you to search for projects that may contain a certain word or phrase in the project description.
-- Tags - Projects can have other tags that indicate some information not covered by any of the above, you can find projects by those tags by entering them into this field.
+- Campaign Tags - Projects can have other tags that indicate a larger mapping campaign projects are a part of, you can find projects by those tags by entering them into this field.
 
 ### Project List
 
