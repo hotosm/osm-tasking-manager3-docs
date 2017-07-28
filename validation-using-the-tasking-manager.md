@@ -6,7 +6,7 @@ Validation is the process of a second mapper reviewing the mapping of the initia
 
 Validation starts much the same way as mapping does, a volunteer finds a Project they would like to work on, reads the Instructions tab to be sure they understand what is called for and how it is expected to be mapped, but instead of selecting the Mapping tab for the Project, they select the "Validate" tab.
 
-![](/assets/2017-04-14_20h40_38.png)
+![](/assets/2017-07-28_20h17_01.png)
 
 The validator can select a Task by clicking on an individual Task, clicking "Select a random Task", select by user or draw a polygon the select multiple, connected Tasks.
 
