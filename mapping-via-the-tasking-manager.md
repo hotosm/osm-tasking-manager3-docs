@@ -126,12 +126,10 @@ Once you have located the square by hovering your mouse over the user name, you 
 
 Click when you are ready to start mapping. You may choose your square to work on by selecting it from the map, or by clicking on the "Take a Task at random" option.  
 
-![](/assets/2017-04-14_15h14_29.png)
+![](/assets/2017-07-28_19h58_09.png)
 
 
-### Selecting a square to map  
-
-![Assigned task square][]  
+### Selecting a square to map
 
 Having selected your square you will be able to see if there is any history for this square, such as a mapper starting to map, but realizing they do not have time to complete the square.  
 
@@ -181,8 +179,11 @@ Having selected your square and inspected it with the imagery in place, you may 
 
 > Be aware that other useful comments about the work previously completed will no longer be available.
 
+### Unlocking a Task
 
-### Unlocking a Task before it is complete
+![](/assets/2017-07-28_20h00_54.png)
+
+#### Unlocking a Task before it is complete
 
 If you start working on a square, but cannot complete it for some reason, it is best practice to leave a comment against the square. Simply detail what remains and choose **Stop Mapping**. Make sure your comments are relevant and aimed to help out the next mapper.  
 
@@ -192,7 +193,7 @@ For example:
     in the square to be traced though
 
 
-### Finishing a Task
+#### Unlocking a Task that is complete mapped
 
 It is very difficult to be completely certain that you have completed a square - however it is acceptable to mark the square as complete if you are fairly sure - the contents will be checked by another mapper when validating, and any small additions can be made then.  
 
@@ -203,12 +204,12 @@ When you have finished editing and think that the square is complete, save any r
 + Add comments to the box detailing what you achieved and more importantly, what you are not certain of. For example; "Complete as far as I can see, but there is cloud covering the top right corner of the square & I cannot see to trace this area".  
 + Click on the "Mark as Mapped" button, and your work is ready for review.  
 
-### Marking a Task as Bad Imagery
+#### Marking a Task as Bad Imagery
 
 You will sometimes select a Task that can not be mapped because the imagery is low resolution or has cloud cover. Just close that Taks in your editor and use the "Mark as Bad Imagery" button to record that the Task can not be mapped due to poor imagery.
 
 
-### Sending a message from the comment box
+#### Sending a message from the comment box
 
 When leaving a comment against a square, you can have the comment sent as a message to a named mapper. Much like Twitter, simply use an @ followed by the username. This will send a message to the user containing the comments from this box, plus a link to the square that the comments box relates to.  
 
@@ -225,7 +226,7 @@ This is particularly useful when validating or adding on another's previous work
 + Be aware that many people from around the world will be participating, so prefer simple, clear language. If you come across comments in other languages, tools such as google translate are reasonable effective.
 
 
-### Referring to a particular square when sending an email  
+#### Referring to a particular square when sending a message  
 
 If you need to send a message, such as an email or an IRC message, and you are querying something concerning a particular square within a project (perhaps you need help identifying something from the satellite imagery):  
 
@@ -237,9 +238,11 @@ If you need to send a message, such as an email or an IRC message, and you are q
     - or shortcut keys **Ctrl+V**, to paste the link into the message. 
 
 
-### Getting live help 
+### Getting help
 
-From the main page of the Tasking Manager:  
+#### Live text based help
+
+From the Learn page of the Tasking Manager:  
 1. Click on **OSM HOT IRC Channel #hot**  
 2. Enter a username (your OSM username?), or use the preset characters  
 3. At the bottom of the dropdown list select **hot**  
@@ -249,7 +252,11 @@ From the main page of the Tasking Manager:
 - To direct a message to a particular individual, include their username from the list on the right within your message. Type, then use the return key to submit your comment. The system is 'live' so wait for an answer - your username will often be used in the reply to show you the comment is directed to you. You will normally receive a reply within a few seconds, so please wait.  
 - An alternative simple system can be found at [kiwiIRC.com](https://kiwiirc.com/client/irc.oftc.net/hot)  
 - Further info on using IRC with OpenStreetMap may be found at [OSM Wiki IRC](http://wiki.openstreetmap.org/wiki/Irc)  
-- Alternatively use an IRC client of your choice (Server=irc.oftc.net, and channel=#hot)  
+- Alternatively use an IRC client of your choice (Server=irc.oftc.net, and channel=#hot)
+
+#### Leaving a question / comment / contacting the Project creator
+
+Using the "Comments" tab for the project you can see other users questions and comments and leave one of your own. You can also click the "Contact the Project Manager" button and that will automatically 
 
 
 ### Editing hints and tips  
