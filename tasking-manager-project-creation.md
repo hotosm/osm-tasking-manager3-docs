@@ -18,17 +18,16 @@ You will need Project Manager Access level to create new projects using TM3.
 
 ## Initiate a new Project within TM3
 
-![TM New][]
+![](/assets/2017-07-28_20h57_07.png)
 
 Click your username in the upper right corner, then **Create a New Project.** You then may choose between drawing your area of interest on the map, or importing an area of interest  from a geojson file;
 
-![TM Draw or Import][]
 
 > Importing a file with a defined area is always preferable to hand drawing a Tasking Manager project. Tools like JOSM, QGIS, etc can be used to create files for importing into the Tasking Manager.
 
 #### Draw an area of interest to be mapped
 
-![TM Draw][]
+
 
 1. Click the 'Draw' button in the upper right corner.
 2. To draw a polygon representing the area of interest (AOI) in the map frame hold the right mouse button down to move the map without clicking, which will add a node. The polygon should tightly frame the area of interest. This saves time for completing tiles that are not of interest (i.e. ocean, forest).
@@ -62,7 +61,7 @@ To create uniform square tiles, select the Square Grid option.
 
 The area of interest is automatically split into grid cells and each cell becomes a task. Determine the optimal tile size using the "Larger" and "Smaller" buttons to adjust the size of the Task squares. As such, a smaller tile size will result in more tasks.  The optimal tile size will therefore depend both on the size of the area (create smaller tiles for a large project) and the number of features that will likely need to be mapped within each tile. Generally speaking, as the size of the area of interest and/or the number of likely features increases, the tile size chosen for the project should decrease.
 
-Please note that there are multiple map layers available to use while determining Task square size. The button in the lower right corner of the map will provide your list of options for map layer. Choosing one of the imagery layers is probably the best option as it lets you see the actual imagery to be mapped.
+Please note that **there are multiple map layers available to use while determining Task square size**. The button in the lower right corner of the map will provide your list of options for map layer. Choosing one of the imagery layers is probably the best option as it lets you see the actual imagery to be mapped.
 
 You can also create several different Task sizes by using the "Split" tools. Task squares can be split multiple times. Again, using an imagery layer will help you decide where Tasks need to be split. The "Reset" button will reset all of your split Tasks.
 
@@ -76,15 +75,22 @@ You can also create several different Task sizes by using the "Split" tools. Tas
 -  A square may be split, but there is no option to join squares together to make them bigger again. So be careful when splitting
 -  **Conclusion** Try mapping an area of the project yourself to see how easy it is and what difficulties will be faced. This should help you to decide on an optimum square size. Allow splitting, but not to infinity - some new mappers continually split squares until they are so small that it becomes extremely difficult to map.
 
+After finalizing Task sizes, click “Next”.
+
 ### Arbitrary Geometries
 It is possible if you uploaded a file to define your project area, it could also contain information about the exact shapes you want your project's individual tasks to be.  If the AOI consists of one polygon, the project will have just one task. This is generally not needed and should only be needed for specific needs.
 
 Arbitrary geometries can not be split.
 
-## Create the project & add description
-After choosing a tile size, click “Create Project”.
+### Project Area Trim
 
-![TM Create Project][]
+After determining the task sizes you will have the option to "Trim" your AoI. You can either trim the AoI to the exact polygon shape you drew or imported (suggested) or you can trim to the nearest task square that includes your AoI.
+
+After finalizing a the AoI trim, click “Next”.
+
+## Create the project
+
+Give the project a title (can be edited on the next screen) and click "Create"
 
 This establishes the project in the task manager and opens a screen where you can provide the descriptions, instructions and other information about the project. Keep in mind that this must not be underestimated. A fair share of mappers (in many cases the majority) will have no previous experience with OpenStreetMap and/or HOT and will thus not be familiar with tagging guidelines. It is very important that the objectives of the project are clear and that all resources which the mappers should take into account are laid out here. It is often advisable to confine one project to one class of objects to be mapped. If you need a basemap of an area better split it in several projects, one for the roads, one for the buildings etc. Now beginners can focus on a small class of objects while learning how to map them correctly. Otherwise you might end up with lots of tiles which contain a bit of everything but nothing really complete.
 
@@ -99,14 +105,17 @@ Once the Project is created, you will need to edit all its associated settings:
 - Settings - Project due date and JOSM Presets.
 - Actions - Send messages to contributors, validate and invalidate the entire project with one click.
 
-
 ### Description
+
+![](/assets/2017-07-28_21h09_34.png)
 
 This screen allows you set the project priority, its status as Draft, Published, or Archived, a short description used in Project listings and the long description available once a mapper has selected the Project.
 
 Both the short and long description should provide information about why the project exists, who will use the data and the expected the impact the mapping will have. These fields support Markdown text and can include images and videos.
 
 ### Instructions
+
+![](/assets/2017-07-28_21h10_36.png)
 
 Features to Map - Generally the fewer features the better as they are more likely to get completed. 
 Changeset Comment - This is the default changeset comment that will be attached to every data upload to OSM. It usually includes something that identifies the Tasking Manager the Project resides on and the features that were mapped. It is often used for "hash tags" to help identify the organization requesting and/or doing the mapping.
@@ -117,11 +126,9 @@ See the below notes on creating good instructions. There will be default instruc
 
 Per Task Instructions - These will be displayed when a mapper selects a task and also has a special feature that allows Task specific URLs to be crafted based on the typical "slippy map" x, y, z coordinates.
 
-### Priority Areas
-
-Use the provided tools to draw areas that should be mapped first. You can have multiple priority areas for a Project.
-
 ### Metadata
+
+![](/assets/2017-07-28_21h11_21.png)
 
 Mapper Level - This is an indication of the difficulty of the mapping Project. There are 3 options Beginner, Intermediate and Advanced. This setting is an indication to the mapper what experience level they should have to be most successful in mapping the project. It can be used in Project list filtering and the suggested level can be required in the Permissions screen.
 
@@ -131,6 +138,12 @@ Organization - Allows you to specify the organization the mapping will be used b
 
 Portfolio/Campaign - This allows you to group the Project with other Projects that are part of larger overall mapping effort. Used in Project list filtering.
 
+### Priority Areas
+
+![](/assets/2017-07-28_21h12_32.png)
+
+Use the provided tools to draw areas that should be mapped first. You can have multiple priority areas for a Project.
+
 ### Imagery
 
 URL Field - A field that takes a TMS URL that will passed automatically to the OSM Editor the mapper or validator uses. Please follow the example, it is very important it is formatted correctly to work in all editors.
@@ -138,6 +151,8 @@ URL Field - A field that takes a TMS URL that will passed automatically to the O
 License - Optionally, if there is a specific license required for the mapper to accept in using the imagery, you can select it here. If you need a licese that is not available, you can contact an administrator for the Tasking Manager installation and ask them to add it.
 
 ### Permissions
+
+![](/assets/2017-07-28_21h13_13.png)
 
 Mapper Level - Allows you to require that a mapper is at the proper level to map on the project. Mapper levels can be set manually, but are automatically applied based on total changesets.
 
@@ -149,11 +164,9 @@ Private Project - This restricts access to the Project to a list of Users. Users
 
 Default Locale - Allows the setting of default instructions language for a project.
 
-Project Due Date - The date after which the Project will automatically be set to status "Archived"
-
-JOSM Preset File - A file of JOSM presets that can be downloaded and used for mapping the project.
-
 ### Actions
+
+![](/assets/2017-07-28_21h14_05.png)
 
 Message All Contributors - Sends a Tasking Manager message to everyone who has marked a Task complete or valid. It can be used to thank contributors and/or guide them to other projects in a Portfolio/Campaign. It should also be used before using either of the two Validate/Invalidate all Tasks options described below.
 
@@ -162,6 +175,8 @@ Validate all Tasks - This will mark all Tasks to "Green" validated status, with 
 Invalidate all Tasks - This will mark all Tasks to "Red" invalidated status, with the exception of Tasks that have been marked as "Bad Imagery"
 
 Delete Project - This will permanently delete the Project from the Tasking Manager.
+
+Clone Project - This will create a duplicate of the project except for the AoI which you will need to re-import or re-draw.
 
 ### Instruction Notes
 
