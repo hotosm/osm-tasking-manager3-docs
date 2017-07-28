@@ -113,13 +113,15 @@ Sometimes, task specific imagery may be available - you may need to agree to a l
 
 When checking a Task marked as complete, validators will expect that the requirements from the instructions tab have all been completed. You may find completing an entire tile is quite difficult - guidance below is available around unlocking tiles; as well as providing useful feedback for the next mapper.  
 
-### Stats tab  
+### Activity and Stats button
 
 This tab contains statistics about the project. It is divided into two sections, a detailed list of the activity (formerly its own tab in the Tasking Manager 2.0) and summary section.
 
 The summary contains a list of mappers who have completed at least one square within the project - to see which squares they have completed, you can *hover your mouse cursor* over a username, and the squares they have completed will become the only ones visible (**use this to locate the squares you have previously completed**).  
 
 Once you have located the square by hovering your mouse over the user name, you may click on the square to see the comments that have been left by mappers and validators for the square, which is a useful way of obtaining feedback from validators.  
+
+You can return the main project contribution page by clicking on the project title on the Activity and Stats page.
 
 
 ### Map Tab  
@@ -255,8 +257,12 @@ From the Learn page of the Tasking Manager:
 - Alternatively use an IRC client of your choice (Server=irc.oftc.net, and channel=#hot)
 
 #### Leaving a question / comment / contacting the Project creator
+![
+](/assets/2017-07-28_20h13_49.png)
 
-Using the "Comments" tab for the project you can see other users questions and comments and leave one of your own. You can also click the "Contact the Project Manager" button and that will automatically 
+Using the "Comments" tab for the project you can see other users questions and comments and leave one of your own. You can also click the "Contact Project Manager" button and that will automatically direct your comment/question to the Project creator. 
+
+All comments are public and it is not real time, live chat, use the IRC option above for realtime chat.
 
 
 ### Editing hints and tips  
