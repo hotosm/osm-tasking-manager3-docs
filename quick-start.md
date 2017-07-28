@@ -2,12 +2,12 @@
 
 
 ### 1. Create an account and login on http://OpenStreetMap.org/
-![](/assets/2017-04-09_21h05_59.png)
+![](/assets/2017-07-28_19h51_07.png)
 
 ---
 
 ### 2. Vist http://tasks.hotosm.org/ and login via the upper right corner
-![](/assets/2017-04-09_21h19_15.png)
+![](/assets/2017-07-28_19h51_55.png)
 
 ---
 
