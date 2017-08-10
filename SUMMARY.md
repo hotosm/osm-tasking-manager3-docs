@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [Cover](README.md)
 * [Overview](overview.md)
 * [Quick Start](quick-start.md)
 * [Mapping](mapping-via-the-tasking-manager.md)
