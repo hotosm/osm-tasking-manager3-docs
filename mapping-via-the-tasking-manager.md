@@ -79,18 +79,19 @@ Once you have located a Project to work on, clicking on the Project title will t
 
 ### Project Page
 
-Everything you need to know about the project is here! At the top is a full description of the mapping project, information about the project.
+Everything you need to know about the project is here! At the top is a full description of the mapping project and information about the project.
 
 Below the description the screen is divided into a left and right section.
 
-- The blue line normally visible in the perimeter squares of a project indicates the border of the project. This border normally follows the available imagery, an administrative boundary, etc, so may appear an unusual shape. Although mapping may be completed outside this border, it is not a requirement and will not be considered by validators.  
-- Pink areas of the map indicate higher priority areas
-- Yellow/Gold grid squares have had the first pass of mapping completed  
+- The uncolored Tasks are ready and available for mapping
+- Pink areas of the map indicate higher priority areas.
+- Yellow/Gold grid squares have had the first pass of mapping complete and are ready for validation.
 - A yellow border indicates the Task is slected by you
 - Blue Tasks are currently being worked on by another mapper 
 - Green Tasks have had the 2nd pass of mapping completed and the mapping has been "validated"
-- Dark gray Tasks have been looked at by a mapper and marked as not having acceptable imagery for mapping 
-- The remaining uncolored Task are available for mapping
+- Dark gray Tasks have been looked at by a mapper and marked as not having acceptable imagery for mapping.
+- The blue line normally visible in the perimeter squares of a project indicates the border of the project. This border normally follows the available imagery, an administrative boundary, etc, so may appear an unusual shape. Although mapping may be completed outside this border, it is not a requirement and will not be considered by validators.
+
 
 
 ### Instructions Tab
