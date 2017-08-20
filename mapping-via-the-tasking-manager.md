@@ -77,9 +77,11 @@ Once you have located a Project to work on, clicking on the Project title will t
 
 
 
-### Description Tab
+### Project Page
 
-Everything you need to know about the project is here! On the left is a description of the mapping project and what is required. On the right side is a grid showing the area to be mapped;  
+Everything you need to know about the project is here! At the top is a full description of the mapping project, information about the project.
+
+Below the description the screen is divided into a left and right section.
 
 - The blue line normally visible in the perimeter squares of a project indicates the border of the project. This border normally follows the available imagery, an administrative boundary, etc, so may appear an unusual shape. Although mapping may be completed outside this border, it is not a requirement and will not be considered by validators.  
 - Pink areas of the map indicate higher priority areas
