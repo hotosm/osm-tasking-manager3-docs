@@ -37,17 +37,17 @@ Once you have logged in, you may click on your username at the top. Here you can
 
 # Finding a Project - Tasking Manager Contribute Screen
 
-![](/assets/2017-07-24_13h06_32.png)
+Clicking on the "Contribute" link in the main menu bar will take you to the main list of projects in the Tasking Manager.
+
+![](/assets/2017-08-21_01h23_56.png)
 
 The Tasking Manager Contribute screen is divided into three main areas:
 
-- Advanced Search Options
-- Project List
+- Search and Filter options along the left
+- The Project List
 - Map View of Project List
 
-### Advanced Search Options
-
-![](/assets/2017-07-24_13h11_14.png)
+### Search and Filter Options
 
 By default all the projects available for mapping are displayed. You can use the Advanced Search filters section of the screen to further narrow down the projects that you would like to work on.
 
@@ -58,16 +58,10 @@ By default all the projects available for mapping are displayed. You can use the
 - Full text search - This allows you to search for projects that may contain a certain word or phrase in the project description.
 - Campaign Tags - Projects can have other tags that indicate a larger mapping campaign projects are a part of, you can find projects by those tags by entering them into this field.
 
-### Project List
-
-The project list has two views, a Grid view (shown above) that shows some detailed information about the projects and a list view that shows more projects and is sortable by column headings.
-
-![](/assets/2017-07-24_13h19_45.png)
-
 ### Map View
-The initial view will show you the number of projects in a region. Clicking or zooming in will display the individual projects. Once zoomed in, the points on the map are color coded, with red being urgent, yellow being high or medium priority and grey being low priority. Hovering over any of the points on the map will show information about that project. Clicking on any of the points on the map will take you to that project.
+Clicking on the "Map View" tab will show you the number of projects in a region. Double clicking  or zooming in will display the individual projects. Once zoomed in, the points on the map are color coded, with red being urgent, yellow being high or medium priority and grey being low priority. Clicking on any of the points on the map will show information about that project. Clicking on the project title will take you to that project.
 
-![](/assets/2017-07-24_13h20_40.png)
+![](/assets/2017-08-21_01h30_26.png)
 
 ## Mapping via the Tasking Manager
 
