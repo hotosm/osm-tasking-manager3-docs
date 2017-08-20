@@ -12,7 +12,7 @@ The Tasking Manager is a seperate tool that coordinates mapping in to OpenStreet
 
 When you first visit the Tasking Manager you will see a "Login" button in the upper right corner of the screen.
 
-![](/assets/2017-04-10_11h48_44.png)
+![](/assets/2017-08-21_01h17_21.png)
 
 Clicking on that button will take you to the OpenStreetMap website. There you will have to login and grant the Tasking Manager access to your OpenStreetMap preferences. Create an account on the OpenStreetMap website if you do not already have one.
 
@@ -28,12 +28,12 @@ The Task Manager initially displays in English - to change to another language c
 
 Once you have logged in, you may click on your username at the top. Here you can:
 
-- Access a list of projects for which you have completed squares,
+- View your Tasking Manager Profile where you can:
+    - Update your Email address and Social Media handles
+    - View your mapper experience level
+    - See a list and map of the projects you have contributed to
 - Go to your **Messages** screen within the Tasking Manager (this is not the same as the OpenStreetMap messaging system)
 - Logout
-- See a list of all users who have contributed completed squares within the Tasking Manager. You may access links to see more information about the user you select, such as which tasks they have completed squares for and their OSM edit history.  
-
-![Tasking Manager Username_list][]
 
 # Finding a Project - Tasking Manager Contribute Screen
 
