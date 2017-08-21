@@ -2,35 +2,34 @@
 
 The OpenStreetMap Tasking Manager is essential to conducting a mapathon, managing a HOT activation, or creating mapping tasks for student mappers. The Tasking Manager divides the work into manageable geographic chunks, which reduces editing conflicts, especially with large numbers of distributed mappers. The Tasking Manager also helps mapping accuracy and data quality by providing a consistent set of instructions for your mappers (e.g. 'map all roads and buildings'). In short, the Tasking Manager is how you set up and direct the workflow for open mapping activities. This module describes the basic administration of the OSM Tasking Manager for successful mapping events.
 
-This guide is specifically written for those persons who need instructions on administration of the OSM Tasking Manager, including the creation and modification of mapping projects for open mapping events, i.e. 'mapathons'. This guide is applicable to all instances of the OSM Tasking Manager including the HOT Tasking Manager <http://tasks.hotosm.org/> and the TeachOSM Tasking Manager <http://tasks.teachosm.org/>. A list of other instances of the OSM Tasking Manager can be found at [the OpenStreetMap wiki](http://wiki.openstreetmap.org/wiki/OSM_Tasking_Manager#Operational_installations_of_the_Tasking_Manager)
+This guide is specifically written for those persons who need instructions on administration of the OSM Tasking Manager, including the creation and modification of mapping projects for open mapping events, i.e. 'mapathons'. This guide is specifically applicable to instances of the OSM Tasking Manager version 3 including the HOT Tasking Manager <http://tasks.hotosm.org/> and the TeachOSM Tasking Manager <http://tasks.teachosm.org/>. 
 
-The HOT or OSM Tasking Manager is frequently referred to as **TM3,** as a shorthand for Tasking Manager, version 3.
+The HOT or OSM Tasking Manager version 3 is frequently referred to as **TM3,** as a shorthand for Tasking Manager, version 3.
 
 ## Logging in & Access Levels
 The first thing to understand is access level. All access to TM3 is authorized through <https://www.openstreetmap.org>. To access TM3 you will need an OpenStreetMap (OSM) account. Once you have this account visit <http://tasks.hotosm.org/> and click **Login to OpenStreetMap**, which will refer you back to the OSM page where you can authorize the Tasking Manager to have limited access to your OSM account.
 
 ### Access Levels within the OSM Tasking Manager
-The OSM Tasking Manager has three user access levels:
+The OSM Tasking Manager has three basic user access levels:
 -  **User** - The most basic level. The user is able to login to TM3 and use its functionality to find and select a mapping project and work on it. This level of usage is fully described in [The OSM Tasking Manager guide within LearnOSM](/en/coordination/tasking-manager/). Note that some projects, such as those in draft (i.e. unpublished) state are not visible to users.
 -  **Project Manager** - Project managers have access to create and update projects within TM3.
 -  **Administrator** - Administrators have access that allows them to manage access levels of users within TM3.
 You will need Project Manager Access level to create new projects using TM3.
 
+Basic users, often called "mappers" have 3 experience levels based on the number of OSM changesets they have generated, Beginner, Intermediate and Advanced. Projects can optionally require a certain mapper experience level for contributions to that project. All projects should have their user experience level set, but do not need to require a certain level for contributions.
+
 ## Initiate a new Project within TM3
 
-![](/assets/2017-07-28_20h57_07.png)
+![](/assets/2017-08-22_00h51_36.png)
 
-Click your username in the upper right corner, then **Create a New Project.** You then may choose between drawing your area of interest on the map, or importing an area of interest  from a geojson file;
+Click your username in the upper right corner, then select **Create a New Project.** You then may choose between drawing your area of interest (AOI) on the map, or importing an area of interest  from a geojson file;
 
-
-> Importing a file with a defined area is always preferable to hand drawing a Tasking Manager project. Tools like JOSM, QGIS, etc can be used to create files for importing into the Tasking Manager.
+> Importing a file with a defined area is always preferable to hand drawing a Tasking Manager project. Tools like JOSM, QGIS, etc can be used to create files for importing into the Tasking Manager. The suggested workflow is to create a .osm file of the AOI using JOSM and then use http://geojson.io/ to generate a GeoJSON.
 
 #### Draw an area of interest to be mapped
 
-
-
 1. Click the 'Draw' button in the upper right corner.
-2. To draw a polygon representing the area of interest (AOI) in the map frame hold the right mouse button down to move the map without clicking, which will add a node. The polygon should tightly frame the area of interest. This saves time for completing tiles that are not of interest (i.e. ocean, forest).
+2. To draw a polygon representing the AoI in the map frame hold the right mouse button down to move the map without clicking, which will add a node. The polygon should tightly frame the area of interest. This saves time for completing tiles that are not of interest (i.e. ocean, forest).
 3. Click on your starting point to complete the polygon.
 4. After completing a polygon you can move the nodes or add new ones to get the area just as you want it.
 
@@ -57,13 +56,17 @@ The area of interest defined by the file upload or hand drawn will appear in the
 
 To create uniform square tiles, select the Square Grid option.
 
-![](/assets/2017-04-14_21h26_37.png)
+![](/assets/2017-08-22_00h56_58.png)
 
 The area of interest is automatically split into grid cells and each cell becomes a task. Determine the optimal tile size using the "Larger" and "Smaller" buttons to adjust the size of the Task squares. As such, a smaller tile size will result in more tasks.  The optimal tile size will therefore depend both on the size of the area (create smaller tiles for a large project) and the number of features that will likely need to be mapped within each tile. Generally speaking, as the size of the area of interest and/or the number of likely features increases, the tile size chosen for the project should decrease.
 
 Please note that **there are multiple map layers available to use while determining Task square size**. The button in the lower right corner of the map will provide your list of options for map layer. Choosing one of the imagery layers is probably the best option as it lets you see the actual imagery to be mapped.
 
+If you have custom imagery for the project, you can also load that in by using the button in the upper right of the map and putting in a TMS or WMS url.
+
 You can also create several different Task sizes by using the "Split" tools. Task squares can be split multiple times. Again, using an imagery layer will help you decide where Tasks need to be split. The "Reset" button will reset all of your split Tasks.
+
+> Generally you will want small tiles over dense settlement areas for buildings. The goal should be to create project tasks that can be completed in 10-15 minutes.
 
 ***Considerations before deciding on tile sizes***
 
