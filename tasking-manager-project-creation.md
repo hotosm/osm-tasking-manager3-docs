@@ -154,7 +154,9 @@ See the below notes on creating good instructions.
 
 ![](/assets/2017-08-22_01h41_40.png)
 
-Use the provided tools to draw areas that should be mapped first. You can have multiple priority areas for a Project.
+Use the provided tools to draw areas that should be mapped first. You can have multiple priority areas for a Project. You can also change priority areas at any time.
+
+> During disaster mapping, early in the event, having a large project AoI and using priority areas to focus mapping as new information comes in is a best practice.
 
 ### Imagery
 
