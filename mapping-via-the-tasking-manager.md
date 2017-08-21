@@ -73,7 +73,7 @@ Once you have located a Project to work on, clicking on the Project title will t
 - Detailed map of the individual mapping Task areas, with information about their status
 - A Questions and Comments tab for questions or comments about the project
 
-![](/assets/2017-07-24_13h24_34.png)
+![](/assets/2017-08-21_02h34_41.png)
 
 
 
@@ -112,20 +112,20 @@ When checking a Task marked as complete, validators will expect that the require
 
 ### Activity and Stats button
 
-This tab contains statistics about the project. It is divided into two sections, a detailed list of the activity (formerly its own tab in the Tasking Manager 2.0) and summary section.
+This page contains statistics about the project. It is divided into two sections, a detailed list of the activity (formerly its own tab in the Tasking Manager 2.0) and summary section.
 
-The summary contains a list of mappers who have completed at least one square within the project - to see which squares they have completed, you can *hover your mouse cursor* over a username, and the squares they have completed will become the only ones visible (**use this to locate the squares you have previously completed**).  
+The summary contains a list of mappers who have completed at least one square within the project.
 
-Once you have located the square by hovering your mouse over the user name, you may click on the square to see the comments that have been left by mappers and validators for the square, which is a useful way of obtaining feedback from validators.  
+A log of all the comments left on individual tasks is at the bottom of the page. These are comments left on tasks and should not be confused with the "Questions and Comments" tab which are general questions and comments about the overall project.
 
 You can return the main project contribution page by clicking on the project title on the Activity and Stats page.
 
 
 ### Map Tab  
 
-Click when you are ready to start mapping. You may choose your square to work on by selecting it from the map, or by clicking on the "Take a Task at random" option.  
+Click when you are ready to start mapping. You may choose an individual task to work on by selecting it from the map, or by clicking on the "Take a Task at random" option.  Only uncolored tasks can be selected in this tab or you will get a message saying the task can not be mapped. If you are intending to Validate, make sure you select the "Validate" tab.
 
-![](/assets/2017-07-28_19h58_09.png)
+![](/assets/2017-08-21_02h41_10.png)
 
 
 ### Selecting a square to map
@@ -180,7 +180,7 @@ Having selected your square and inspected it with the imagery in place, you may 
 
 ### Unlocking a Task
 
-![](/assets/2017-07-28_20h00_54.png)
+![](/assets/2017-08-21_02h44_21.png)
 
 #### Unlocking a Task before it is complete
 
@@ -208,7 +208,7 @@ When you have finished editing and think that the square is complete, save any r
 You will sometimes select a Task that can not be mapped because the imagery is low resolution or has cloud cover. Just close that Taks in your editor and use the "Mark as Bad Imagery" button to record that the Task can not be mapped due to poor imagery.
 
 
-#### Sending a message from the comment box
+#### Sending a message from the Task comment box
 
 When leaving a comment against a square, you can have the comment sent as a message to a named mapper. Much like Twitter, simply use an @ followed by the username. This will send a message to the user containing the comments from this box, plus a link to the square that the comments box relates to.  
 
@@ -253,11 +253,10 @@ From the Learn page of the Tasking Manager:
 - Further info on using IRC with OpenStreetMap may be found at [OSM Wiki IRC](http://wiki.openstreetmap.org/wiki/Irc)  
 - Alternatively use an IRC client of your choice (Server=irc.oftc.net, and channel=#hot)
 
-#### Leaving a question / comment / contacting the Project creator
-![
-](/assets/2017-07-28_20h13_49.png)
+#### Leaving a Project question / comment / contacting the Project creator
+![](/assets/2017-08-21_02h46_56.png)
 
-Using the "Comments" tab for the project you can see other users questions and comments and leave one of your own. You can also click the "Contact Project Manager" button and that will automatically direct your comment/question to the Project creator. 
+Using the "Comments" tab for the project you can see other users questions and comments and leave one of your own. You can also click the "Contact Project Manager" link and that will automatically direct your comment/question to the Project creator. 
 
 All comments are public and it is not real time, live chat, use the IRC option above for realtime chat.
 
