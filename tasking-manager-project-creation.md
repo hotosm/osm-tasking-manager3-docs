@@ -64,7 +64,7 @@ Please note that **there are multiple map layers available to use while determin
 
 If you have custom imagery for the project, you can also load that in by using the button in the upper right of the map and putting in a TMS or WMS url.
 
-You can also create several different Task sizes by using the "Split" tools. Task squares can be split multiple times. Again, using an imagery layer will help you decide where Tasks need to be split. The "Reset" button will reset all of your split Tasks.
+You can also create several different Task sizes by using the "Split" tools. Task squares can be split multiple times. Again, using an imagery layer will help you decide where Tasks need to be split. The "Reset" button will reset all of your split Tasks. The Split (Polygon) option will let you draw a polygon over an area to create smaller tasks and the Split (Point) will let you click individual task squares to split. The Reset button will remove all of your custom splitting.
 
 > Generally you will want small tiles over dense settlement areas for buildings. The goal should be to create project tasks that can be completed in 10-15 minutes.
 
@@ -81,7 +81,7 @@ You can also create several different Task sizes by using the "Split" tools. Tas
 After finalizing Task sizes, click “Next”.
 
 ### Arbitrary Geometries
-It is possible if you uploaded a file to define your project area, it could also contain information about the exact shapes you want your project's individual tasks to be.  If the AOI consists of one polygon, the project will have just one task. This is generally not needed and should only be needed for specific needs.
+It is possible if you uploaded a file to define your project area, it could also contain information about the exact shapes you want your project's individual tasks to be.  If the AOI consists of one polygon, the project will have just one task. This is generally not needed and should only be used for specific needs.
 
 Arbitrary geometries can not be split.
 
@@ -89,7 +89,7 @@ Arbitrary geometries can not be split.
 
 After determining the task sizes you will have the option to "Trim" your AoI. You can either trim the AoI to the exact polygon shape you drew or imported (suggested) or you can trim to the nearest task square that includes your AoI.
 
-After finalizing a the AoI trim, click “Next”.
+After finalizing a the AOI trim, click “Next”.
 
 ## Create the project
 
