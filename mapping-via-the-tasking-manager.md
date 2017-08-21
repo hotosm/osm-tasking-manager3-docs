@@ -81,7 +81,7 @@ Once you have located a Project to work on, clicking on the Project title will t
 
 Everything you need to know about the project is here! At the top is a full description of the mapping project and information about the project.
 
-Below the description the screen is divided into a left and right section.
+Below the description the screen is divided into a left and right section. The left section is a tabbed panel with tabs for "Instructions", "Map", "Validate" and "Questions and Comments". On the right is a map of the project and the individual tasks for mapping.
 
 - The uncolored Tasks are ready and available for mapping
 - Pink areas of the map indicate higher priority areas.
