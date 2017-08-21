@@ -26,6 +26,8 @@ Click your username in the upper right corner, then select **Create a New Projec
 
 > Importing a file with a defined area is always preferable to hand drawing a Tasking Manager project. Tools like JOSM, QGIS, etc can be used to create files for importing into the Tasking Manager. The suggested workflow is to create a .osm file of the AOI using JOSM and then use http://geojson.io/ to generate a GeoJSON.
 
+During project creation you have the option to add a custom imagery layer using the button in the upper right corner, use an existing imagery layer via the button in the lower right hand corner and see existing projects in the area using the checkbox in the lower left corner (must be zoomed in to see other project AOIs).
+
 #### Draw an area of interest to be mapped
 
 1. Click the 'Draw' button in the upper right corner.
@@ -110,7 +112,7 @@ Once the Project is created, you will need to edit all its associated settings:
 
 ### Description
 
-![](/assets/2017-07-28_21h09_34.png)
+![](/assets/2017-08-22_01h29_35.png)
 
 This screen allows you set the project priority, its status as Draft, Published, or Archived, a short description used in Project listings and the long description available once a mapper has selected the Project.
 
@@ -118,32 +120,39 @@ Both the short and long description should provide information about why the pro
 
 ### Instructions
 
-![](/assets/2017-07-28_21h10_36.png)
+![](/assets/2017-08-22_01h36_21.png)
 
-Features to Map - Generally the fewer features the better as they are more likely to get completed. 
-Changeset Comment - This is the default changeset comment that will be attached to every data upload to OSM. It usually includes something that identifies the Tasking Manager the Project resides on and the features that were mapped. It is often used for "hash tags" to help identify the organization requesting and/or doing the mapping.
+**Entities to Map** - A list of the features you would users to map. Generally the fewer features the better as they are more likely to get completed.
 
-Detailed Instructions - This is where the majority of your detailed instructions will be placed and what we expect every mapper and validator to read carefully and follow.
+> Projects that ask for lots of entities to be mapped are difficult for mappers and difficult to get validated. They take much longer to get a good usable dataset. Task sizes are also difficult to make efficient for different types of mapping, e.g., buildings need small task squares, roads and waterways need larger task squares. Making multiple projects over the same area to get buildings and linear features mapped is a best practice.
 
-See the below notes on creating good instructions. There will be default instructions provided based on the type of mapping, with translations to other languages. If you edit the default instructions in any of the languages, you will have to manually edit or remove the instructions in the translations. Resetting in the Metadata screen what objects need to be mapped will wipe out any instructions you have customized or created from scratch.
+**Changeset Comment** - This is the default changeset comment that will be attached to every data upload to OSM. It usually includes something that identifies the Tasking Manager the Project resides on and the features that were mapped. It is often used for "hash tags" to help identify the organization requesting and/or doing the mapping. It can also describe the mapping being done, e.g., "Mapping buildings."
 
-Per Task Instructions - These will be displayed when a mapper selects a task and also has a special feature that allows Task specific URLs to be crafted based on the typical "slippy map" x, y, z coordinates.
+> Users should be instructed to fill in meaningful comments about what they mapped, but helping them out with good default comments is always a good idea.
+
+**Detailed Instructions** - This is where the majority of your detailed instructions will be placed and what we expect every mapper and validator to read carefully and follow.
+
+See the below notes on creating good instructions.
+
+**Per Task Instructions** - These will be displayed when a mapper selects a task and also has a special feature that allows Task specific URLs to be crafted based on the typical "slippy map" x, y, z coordinates.
 
 ### Metadata
 
-![](/assets/2017-07-28_21h11_21.png)
+![](/assets/2017-08-22_01h37_29.png)
 
-Mapper Level - This is an indication of the difficulty of the mapping Project. There are 3 options Beginner, Intermediate and Advanced. This setting is an indication to the mapper what experience level they should have to be most successful in mapping the project. It can be used in Project list filtering and the suggested level can be required in the Permissions screen.
+> All of these fields should be filled out and will become non-optional in future versions of the Tasking Manager.
 
-Type of Mapping - Used in Project list filtering and checking/unchecking them will remove existing instructions and replace them with the default instructions for each feature type.
+**Mapper Level** - This is an indication of the difficulty of the mapping Project. There are 3 options Beginner, Intermediate and Advanced. This setting is an indication to the mapper what experience level they should have to be most successful in mapping the project. It can be used in Project list filtering and the suggested level can be required in the Permissions screen.
 
-Organization - Allows you to specify the organization the mapping will be used by. Used in Project filtering.
+**Type of Mapping** - Used in Project list filtering and helps mappers find projects they like to map.
 
-Portfolio/Campaign - This allows you to group the Project with other Projects that are part of larger overall mapping effort. Used in Project list filtering.
+**Organization **- Allows you to specify the organization the mapping will be used by. Used in Project filtering.
+
+**Campaign **- This allows you to group the Project with other Projects that are part of larger overall mapping effort. Used in Project list filtering.
 
 ### Priority Areas
 
-![](/assets/2017-07-28_21h12_32.png)
+![](/assets/2017-08-22_01h41_40.png)
 
 Use the provided tools to draw areas that should be mapped first. You can have multiple priority areas for a Project.
 
