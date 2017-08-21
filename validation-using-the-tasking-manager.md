@@ -5,12 +5,19 @@ Validation is the process of a second mapper reviewing the mapping of the initia
 ## Getting Started
 
 Validation starts much the same way as mapping does, a volunteer finds a Project they would like to work on, reads the Instructions tab to be sure they understand what is called for and how it is expected to be mapped, but instead of selecting the Mapping tab for the Project, they select the "Validate" tab.
-
-![](/assets/2017-07-28_20h17_01.png)
+![](/assets/2017-08-21_03h43_11.png)
 
 The validator can select a Task by clicking on an individual Task, clicking "Select a random Task", select by user or draw a polygon the select multiple, connected Tasks.
 
 Unlike mappers, Validators can select multiple Tasks to perform validation on a larger scale than just one Task.
+
+## Selecting Multiple Tasks for Validation
+
+New in the latest version of the Tasking Manager is the ability to select multiple tasks for validation, either by area or by user.
+
+Depending on which editor you are using, this feature will behave differently.
+
+In JOSM, a second OSM data layer will be created titled "Task Boundaries - Do Not Edit or Upload" and it will have uploading disabled in recent versions of JOSM. JOSM **will not download the OSM data** because it could be a very large amount of data. Instead the validator will have to use the task boundaries as a guide and download the data to the active editing layer manually.
 
 ### Select by drawing a polygon
 
@@ -24,7 +31,7 @@ A list of mappers who have marked a Task as done is presented. Hovering over any
 
 Clicking on the "Start Validating" button will lock all the Tasks completed by that mapper and allow the validator to open them in their editor of choice.
 
-![](/assets/2017-07-28_20h40_16.png)
+![](/assets/2017-08-21_04h08_28.png)
 
 Once in the editor of their choice, **the validator will have to manually download the OSM data** for Task areas selected. This is to prevent downloading all of the OSM data between the selected Tasks.
 
