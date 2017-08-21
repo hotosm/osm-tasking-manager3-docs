@@ -166,9 +166,9 @@ License - Optionally, if there is a specific license required for the mapper to 
 
 ### Permissions
 
-![](/assets/2017-07-28_21h13_13.png)
+![](/assets/2017-08-22_01h55_16.png)
 
-Mapper Level - Allows you to require that a mapper is at the proper level to map on the project. Mapper levels can be set manually, but are automatically applied based on total changesets.
+Mapper Level - Allows you to require that a mapper is at the proper level to map on the project (Metadata screen above). Mapper levels can be set manually, but are automatically applied based on total changesets.
 
 Require Validator Role - This allows you to require that people doing validation have been evaluated to be qualified validators. It is a peer review process to designate someone a Validator, Project Managers and existing Validators can mark any user as a qualified Validator.
 
@@ -180,7 +180,7 @@ Default Locale - Allows the setting of default instructions language for a proje
 
 ### Actions
 
-![](/assets/2017-07-28_21h14_05.png)
+![](/assets/2017-08-22_01h58_21.png)
 
 Message All Contributors - Sends a Tasking Manager message to everyone who has marked a Task complete or valid. It can be used to thank contributors and/or guide them to other projects in a Portfolio/Campaign. It should also be used before using either of the two Validate/Invalidate all Tasks options described below.
 
@@ -190,7 +190,7 @@ Invalidate all Tasks - This will mark all Tasks to "Red" invalidated status, wit
 
 Delete Project - This will permanently delete the Project from the Tasking Manager.
 
-Clone Project - This will create a duplicate of the project except for the AoI which you will need to re-import or re-draw.
+Clone Project - This will create a duplicate of the project except for the AOI which you will need to re-import or re-draw.
 
 ### Instruction Notes
 
