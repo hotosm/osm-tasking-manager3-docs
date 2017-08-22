@@ -1,6 +1,6 @@
 ## Project Dashboard
 
-![](/assets/2017-07-28_22h44_56.png)
+![](/assets/2017-08-22_02h01_40.png)
 
 The Project Dashboard is available for Project Managers my selecting "Project Dashboard" from the user's menu in the upper right corner of the Tasking Manager.
 
@@ -14,6 +14,6 @@ Links to the Activity and Stats page, as well as the edit page are provided.
 Projects can be filtered by title or campaign tag.
 
 ### Map View
-![](/assets/2017-07-28_22h50_55.png)
+![](/assets/2017-08-22_02h02_45.png)
 
 The map view provides an overall picture of all the projects you have created and uses color coding to indicate their current status (published, Draft, Archived)
