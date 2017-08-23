@@ -1,2 +1,1 @@
-# osm-tasking-manager3-docs
-User documentation for the OSM Tasking Manager 3 software.
+![](/assets/2017-08-23_23h25_21.png)
